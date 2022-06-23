@@ -1,0 +1,26 @@
+# IGNORE THE OUTPUT DIRECTORIES
+*.root
+*.pdf
+*.so
+*.pycMu
+*.cxx_tmp_*
+*.pcm
+*.cc
+*.d
+*.pyc
+
+.vscode/
+.ipynb_checkpoints/
+
+TauMu/MC/out/*
+TauMu/MC/output/*
+TauMu/MC/error/*
+TauMu/MC/log/*
+TauMu/DATA/out/*
+TauMu/DATA/output/*
+TauMu/DATA/error/*
+TauMu/DATA/log/*
+
+TauMu/Plots/*
+!TauMu/Plots/*.ipynb
+!TauMu/Plots/*.sh
